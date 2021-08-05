@@ -1,0 +1,72 @@
+
+ *{
+    box-sizing: border-box;  
+    margin: 0;
+    padding: 0;
+  } 
+/**tamaño total
+para todo tp para que no molesten las cajas mantenga el tamaño*/
+
+/**tamaño letras Cuerpos de texto: 12px
+*/
+h5{
+ 
+  font-size:12px;
+  }
+p{
+  font-size: 12px;
+}
+
+
+li{
+list-style: none;
+color: black;
+font-size: 12px;
+} 
+/**sacar lo itens/iconos
+*/
+a{
+text-decoration: none;
+color: black;
+  /**cambia color de subrallado: text-decoration-color: black;
+*/
+
+}
+/**sacar el subrayado
+*/
+
+/**variables colores h2{
+}
+*/
+:root{
+--Amarillo: #EAC926;
+--Azul: #03264C;
+--Celeste: #1259c3;
+--Gris-oscuro: #666;
+--Gris-claro: #ebebeb;
+--Verde: #39b54a;
+}
+div.burger-menu{
+ justify-content: center;
+}
+
+/**tamaño letras Titulares
+*/
+h2{
+
+font-size: 24px;
+}
+
+/**tamaño letras de los productos
+*/
+h4{
+ 
+  font-size:16px;
+  }
+main p{
+    font-size:18px;
+ }
+
+ main p.des{
+   font-size:16px;
+}

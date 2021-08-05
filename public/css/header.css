@@ -1,0 +1,20 @@
+header{
+    background-color: var(--Amarillo);
+}
+header div.burger-menu{
+    
+   }
+ 
+
+
+header div i{
+    color: var(--Gris-claro);
+    background-color: var(--Azul);
+    margin: 8px;
+    padding: 8px;
+    border-radius: 4px;
+justify-content: center;
+}
+header nav  {
+  text-anchor: end;
+}
