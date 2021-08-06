@@ -10,14 +10,15 @@ para todo tp para que no molesten las cajas mantenga el tamaño*/
 /**tamaño letras Cuerpos de texto: 12px
 */
 h5{
- 
   font-size:12px;
   }
+
 p{
   font-size: 12px;
 }
 
-
+/**sacar el subrayado
+*/
 li{
 list-style: none;
 color: black;
@@ -32,10 +33,9 @@ color: black;
 */
 
 }
-/**sacar el subrayado
-*/
 
-/**variables colores h2{
+
+/**variables colores del tp {
 }
 */
 :root{
@@ -69,4 +69,20 @@ main p{
 
  main p.des{
    font-size:16px;
+}
+/**estilos al Pie de página   border:center;
+*/
+div.footer{
+width: 300px;
+text-align: center;
+padding: 30px 30px;
+margin: 0;
+}
+/**distancia de iconos de footer   tamaño icin :font-size
+*/
+div.icon{
+  color: var(--Azul);
+  text-align: center;
+  padding: 10px;
+ font-size:2em;
 }
