@@ -1,0 +1,18 @@
+header{
+    background-color: var(--Amarillo);
+}
+
+ 
+
+
+header div i{
+    color: var(--Gris-claro);
+    background-color: var(--Azul);
+    margin: 8px;
+    padding: 8px;
+    border-radius: 4px;
+
+}
+header nav  {
+  text-anchor: end;
+}
