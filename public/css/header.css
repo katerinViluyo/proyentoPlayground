@@ -1,18 +1,32 @@
 header{
     background-color: var(--Amarillo);
 }
-
+header div.logo{
+  padding: 25px;
  
-
-
-header div i{
-    color: var(--Gris-claro);
-    background-color: var(--Azul);
-    margin: 8px;
-    padding: 8px;
-    border-radius: 4px;
-
+} 
+header div.box-check{
+  margin:0px 15px ;
 }
-header nav  {
-  text-anchor: end;
+
+header div.box-form{
+  margin:0px 15px ;
+} 
+header div.mano{
+  font-size: 12px;
+  text-align:justify;
+  margin:8px 28px ;
 }
+/** font-size:12px; margin:20px 29px ;
+border: 8px;
+text-align: center;align-items: center;
+
+*/
+div.burger-menu i{
+  color: var(--Gris-claro);
+  background-color: var(--Azul);
+margin:20px 130px ;
+border-radius: 4px;
+padding: 8px 8px;
+
+} 
