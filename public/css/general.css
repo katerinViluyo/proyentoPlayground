@@ -46,9 +46,6 @@ color: black;
 --Gris-claro: #ebebeb;
 --Verde: #39b54a;
 }
-div.burger-menu{
- justify-content: center;
-}
 
 /**tamaño letras Titulares
 */
@@ -78,7 +75,9 @@ text-align: center;
 padding: 30px 30px;
 margin: 0;
 }
-/**distancia de iconos de footer   tamaño icin :font-size
+/**distancia de iconos de footer   tamaño icin :font-size text-align: center;
+  padding: 10px;
+ font-size:1em;
 */
 div.icon{
   color: var(--Azul);
