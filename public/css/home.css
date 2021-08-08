@@ -1,6 +1,19 @@
+<<<<<<< HEAD
  
 
   /* .home xxxheader logo{
+=======
+ .home{
+     background-color:#EAC926;
+
+ }
+ Unicode GlyphGreat if you're copying and pasting into a Desktop application.
+ UnicodeUseful if you're using CSS and pseudo-elements to render icons with custom styling.f3ee
+ HTMLUseful for copying and pasting into your HTML (Webfont with CSS or SVG with JS).<i class="fab fa-sistrix"></i>
+ <i class="fas fa-shopping-basket"></i>
+ <i class="far fa-id-card"></i>
+  /* .home header logo{
+>>>>>>> agregandoEstilos
     background-size: 100%;
 }
 .home header nav ul{
