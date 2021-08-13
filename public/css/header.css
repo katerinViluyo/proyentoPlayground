@@ -1,20 +1,44 @@
 header{
     background-color: var(--Amarillo);
-}
-header div.burger-menu{
-    
-   }
- 
+ width: 100%;
 
-
-header div i{
-    color: var(--Gris-claro);
-    background-color: var(--Azul);
-    margin: 8px;
-    padding: 8px;
-    border-radius: 4px;
-justify-content: center;
 }
-header nav  {
+header div.logo{
+  width:50% ;
+  padding: 30px;
+  
+}
+header div.buscadorPrincipal{
+  padding: 5px 15px;
+}
+header div.mano{
+  padding: 30px;
+}
+
+header p{
+  text-align:center;
+}
+
+header nav.links {
+ padding-bottom: 12px;
+}
+
+/*  margin:left; header div.burger-menu{
+  
+}menu hambur*/
+header nav{
   text-anchor: end;
 }
+header div.burger-menu{
+    justify-content: center;
+   text-align:center;
+   }
+ 
+header div.burger-menu i{
+    color: var(--Gris-claro);
+    background-color: var(--Azul);
+    
+    padding: 8px;
+    border-radius: 4px;
+margin: 8px;
+}/**/
