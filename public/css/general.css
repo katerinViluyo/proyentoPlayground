@@ -12,6 +12,7 @@ para todo tp para que no molesten las cajas mantenga el tamaño*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 body{
  font-family: 'Roboto', sans-serif;
+ background-color: var(--Gris-claro);
   }
 h5{
   font-size:12px;
@@ -60,7 +61,7 @@ font-size: 24px;
 /**tamaño letras de los productos
 */
 h4{
- 
+ display: none;
   font-size:16px;
   }
 main p{
@@ -69,6 +70,7 @@ main p{
 
  main p.des{
    font-size:16px;
+   color:var(--Verde);
 }
 /**estilos al Pie de página   border:center;
 */
@@ -76,7 +78,7 @@ div.footer{
 width: 300px;
 text-align: center;
 padding: 30px 30px;
-margin: 0;
+margin: auto;
 }
 /**distancia de iconos de footer   tamaño icin :font-size text-align: center;
   padding: 10px;
@@ -88,3 +90,5 @@ div.icon{
   padding: 10px;
  font-size:2em;
 }
+
+

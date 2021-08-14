@@ -1,6 +1,6 @@
-header{
+header {
     background-color: var(--Amarillo);
- width: 100%;
+ 
 
 }
 header div.logo{
@@ -28,6 +28,7 @@ header nav.links {
 }menu hambur*/
 header nav{
   text-anchor: end;
+  display: none;
 }
 header div.burger-menu{
     justify-content: center;
@@ -42,3 +43,23 @@ header div.burger-menu i{
     border-radius: 4px;
 margin: 8px;
 }/**/
+
+
+  
+ /*tablet en adelante*/
+   
+@media(min-width: 361px){
+  
+  header nav{
+    
+    display: block;
+  } header div.burger-menu i{
+display: none;
+    }
+      }
+    
+ /* celu*/
+  @media(max-width: 360px){
+   
+      }
+ 

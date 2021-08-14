@@ -1,56 +1,74 @@
-<<<<<<< HEAD
+
+
+
+.home div.banner img{
+     box-sizing: content-box;
+     
+}
+.home  {
+    width: 90%;
+    box-sizing: content-box;
+  margin: auto;
+  background-color: white;
+}
+
+div.carro i{
+  border-radius: 50px;
+  border: solid 1px var(--Verde);
+  color: var(--Verde);
+background-color: white;
+box-sizing: border-box;
+padding: 12px;
+}
+  /* 
+  background-position: center;
+
+
+{}    -->*/
+/*separacion entre art*/
+article{
+
+padding-top: 10px;
+background-color: var(--Gris-claro);
+}
+
+/*}borde superior de 1 píxel, línea sólida y color
+#ebebeb. gris claro
+sus bordes en 15 píxeles*/
+.home section article  div.contDesArt{
+border-top:solid 1px var(--Gris-oscuro) ;
+padding: 15px;
+}
+
+/*  
+media Navegación
+ en mobile la descripción del artículo no se visualizará.
+
+ en tablets (ancho mínimo 361 px)
+ en desktop (ancho mínimo 769 px)
+
+ font-size:16px;
  
+*/
+   
 
-  /* .home xxxheader logo{
-=======
- .home{
-     background-color:#EAC926;
-
- }
- Unicode GlyphGreat if you're copying and pasting into a Desktop application.
- UnicodeUseful if you're using CSS and pseudo-elements to render icons with custom styling.f3ee
- HTMLUseful for copying and pasting into your HTML (Webfont with CSS or SVG with JS).<i class="fab fa-sistrix"></i>
- <i class="fas fa-shopping-basket"></i>
- <i class="far fa-id-card"></i>
-  /* .home header logo{
->>>>>>> agregandoEstilos
-    background-size: 100%;
-}
-.home header nav ul{
   
-} .home header nav ul li {
-    text-transform: uppercase;
-    color: gray;
+@media(min-width:361px ){
+                         
+ h4{
+ display:block;
+   
+    }
+    .home section article  div.contDesArt{
+box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
+  }
 }
-
-  background-image: url('/public/images/logo-mercado-liebre.svg');
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: right -75px;
-
- line-height: 30px;  background-color:#EAC926;
- background-color:#EAC926;
-
-
-.home header a{
-    color: black;
-}
-
-.home h2{
-    font-family: 'Work Sans', sans-serif;
-    text-transform: uppercase;
-    font-size: 40px;
-    font-weight: 100;
-    margin-left: 40px;
-    line-height: 40px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.home h1{
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    font-size: 78px;
-    font-weight: 700;
-    background-color: rgba(255, 255, 255, 0.5);
-}-->*/
+  
+  
+ /* @media(min-width: 769px){
+  
+    .home main selection article{
+      box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
+        }
+      }
+  */
