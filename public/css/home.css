@@ -1,74 +1,125 @@
 
+main{
 
-
-.home div.banner img{
-     box-sizing: content-box;
-     
+  box-sizing: border-box ;
+  background-color: var(--Gris-claro);
 }
-.home  {
+
+.mercado main   {
     width: 90%;
     box-sizing: content-box;
-  margin: auto;
-  background-color: white;
+    margin:0  auto;
+   
+}
+.mercado main .home section  {
+display: flex;
+  flex-wrap: wrap;
+  /*para tp posicionamiento fexbox
+  justify-content: ; coloca las cosas a las vesquinas
+  space-around
+  */
+  justify-content:space-between ;
 }
 
-div.carro i{
-  border-radius: 50px;
+.mercado main  .home section   h2{
+ width: 100%;
+
+  }
+
+/*    tarjeta del produc 
+borde superior de 1 píxel*/
+.mercado main .home section article{
+  margin: 10px 0;
+   background-color:white;
+}
+
+.mercado  main .home section article  div.contDesArt{
+  border-top:solid 1px var(--Gris-claro) ;
+  padding: 15px;
+  position: relative;/*para posicion absolud de alguna cosa que contiene*/
+}
+
+/*    carro   */
+ 
+.mercado main section.home section article div.contDesArt div.carro i{
+  border-radius: 50%;
   border: solid 1px var(--Verde);
   color: var(--Verde);
-background-color: white;
-box-sizing: border-box;
-padding: 12px;
+  background-color: white;
+
+  padding: 5px;
+  font-size: 16px ;
+  display: block ;
+  width: 30px ;
+  position: absolute ; /*nece contenedor position: relatip;*/
+  right: 20px ;
+  top: -15px ;
+
+
 }
-  /* 
+
+
+
+
+
+
+
+/*separacion precio y descuento*/
+  
+.mercado section.home section article div.contDesArt div.preDes{
+font-size: 18px;
+  display: flex;
+}
+.mercado section.home section article div.contDesArt div.preDes p{
+  
+ flex-grow: 0.3;/*para total del ancho del contenedor*/
+}
+.mercado section.home section article div.contDesArt div.preDes p.des{
+ 
+  flex-grow: 0.7;
+}
+
+
+
+
+/* 
   background-position: center;
-
-
 {}    -->*/
-/*separacion entre art*/
-article{
 
-padding-top: 10px;
-background-color: var(--Gris-claro);
-}
 
-/*}borde superior de 1 píxel, línea sólida y color
-#ebebeb. gris claro
-sus bordes en 15 píxeles*/
-.home section article  div.contDesArt{
-border-top:solid 1px var(--Gris-oscuro) ;
-padding: 15px;
-}
 
 /*  
 media Navegación
  en mobile la descripción del artículo no se visualizará.
 
- en tablets (ancho mínimo 361 px)
- en desktop (ancho mínimo 769 px)
+ en tablets (ancho mínimo 361 px) 2 articulos
+ en desktop (ancho mínimo 769 px) 4 articulos
 
  font-size:16px;
  
 */
-   
-
-  
-@media(min-width:361px ){
+    
+@media(min-width:768px ){
                          
- h4{
- display:block;
+  .mercado  .home h4{
+     display:block;
    
     }
-    .home section article  div.contDesArt{
-box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
+  .mercado .home section article  {
+     box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+     width: 40%;
   }
+
+
 }
   
   
- /* @media(min-width: 769px){
-  
-    .home main selection article{
-      box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
-        }
+ /*  */
+ @media(min-width: 1024px){
+ 
+  .mercado .home section article  {
+    box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+    width: 20%;
+ }
       }
-  */
+ 

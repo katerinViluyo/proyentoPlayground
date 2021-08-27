@@ -1,41 +1,76 @@
-header {
+.mercado header {
     background-color: var(--Amarillo);
+    margin: 0%;
+}
+
+/*.mercado header div.losTres{
+
  
+}*/
+.mercado header div div.encabezado{
+ justify-content: space-between;
+padding: 20px 10px 0px;
+ display: flex;
 
+/*flex-wrap: wrap;*/
+align-items: center;
 }
-header div.logo{
-  width:50% ;
-  padding: 30px;
+.mercado header div div.encabezado div.logo {
+ width:48% ;
+  /* padding: 15px 0px;*/
+ margin-left:10px ;
+  margin-bottom:10px;
+}
+.mercado header div div.encabezado div.buscadorPrincipal   {
+    width:48% ;
+
+
+  }
+
+.mercado header div div.encabezado div.buscadorPrincipal  input {
+    width:80% ;
+  }
+
+
+.mercado header div div.encabezado div.buscadorPrincipal div {
+box-sizing: border-box;
+}
   
-}
-header div.buscadorPrincipal{
-  padding: 5px 15px;
-}
-header div.mano{
-  padding: 30px;
+.mercado header div div.encabezado div.buscadorPrincipal  div input.box-form {
+margin: 15px;
 }
 
-header p{
+/* mano */
+
+.mercado header div.losTres p.mano{
   text-align:center;
-}
-
-header nav.links {
- padding-bottom: 12px;
-}
-
-/*  margin:left; header div.burger-menu{
   
-}menu hambur*/
-header nav{
+  margin: 15px 0px;
+}
+
+/*   links  navegacion */
+
+.mercado header nav{
   text-anchor: end;
   display: none;
+
+} 
+ .mercado header nav.links {
+margin: 0px 0;
 }
-header div.burger-menu{
+
+.mercado header nav.links ul li a {
+font-size: 12px;
+  
+   }
+ /*  
+*/
+.mercado header div.burger-menu{
     justify-content: center;
    text-align:center;
    }
  
-header div.burger-menu i{
+   .mercado header div.burger-menu i{
     color: var(--Gris-claro);
     background-color: var(--Azul);
     
@@ -48,18 +83,59 @@ margin: 8px;
   
  /*tablet en adelante*/
    
-@media(min-width: 361px){
+@media(min-width: 768px){
   
-  header nav{
-    
-    display: block;
-  } header div.burger-menu i{
-display: none;
-    }
-      }
-    
- /* celu*/
-  @media(max-width: 360px){
+/*   links  navegacion */
+
+.mercado header nav{
+ display: block;
    
+ display: flex;
+     justify-content: space-between;
+ 
+
+  }
+   
+  .mercado header nav.links ul  {
+
+    display: flex;
+   
+  }
+  
+  .mercado header nav.links ul li {
+ margin: 0 8px;
+
+  }
+
+  .mercado header div.losTres {
+   display: flex;
+   width: 100%;
+    }
+
+    .mercado header div.losTres div.encabezado{
+     width: 65%;
+       }
+   
+       .mercado header div.losTres p.mano{
+        margin: auto 0px;
+        
+        padding:5px 0;
       }
+
+
+  .mercado header div.burger-menu i{
+    display: none;
+    }
+
+
+
+  }
+    
+ /* pc escritorio*/
+  @media(max-width: 1024px){
+    .mercado header nav.links ul li {
+      margin: 0 11px;
+     padding: 14px 0;
+       }
+  }
  

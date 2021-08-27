@@ -1,8 +1,8 @@
 
  *{
     box-sizing: border-box;  
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
   } 
 /**tamaño total
 para todo tp para que no molesten las cajas mantenga el tamaño*/
@@ -10,28 +10,28 @@ para todo tp para que no molesten las cajas mantenga el tamaño*/
 /**tamaño letras Cuerpos de texto: 12px
 */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-body{
+body.mercado{
  font-family: 'Roboto', sans-serif;
  background-color: var(--Gris-claro);
   }
-h5{
+  .mercado h5{
   font-size:12px;
   }
 
-p{
+  .mercado p{
   font-size: 12px;
 }
 
 /**sacar el subrayado
 */
-li{
+.mercado li{
 list-style: none;
 color: black;
 font-size: 12px;
 } 
 /**sacar lo itens/iconos
 */
-a{
+.mercado a{
 text-decoration: none;
 color: black;
   /**cambia color de subrallado: text-decoration-color: black;
@@ -39,7 +39,10 @@ color: black;
 
 }
 
-
+.mercado main div.banner img{
+  box-sizing: content-box;
+  
+}
 /**variables colores del tp {
 }
 */
@@ -54,27 +57,30 @@ color: black;
 
 /**tamaño letras Titulares
 */
-h2{
+.mercado h2{
 font-size: 24px;
 }
 
 /**tamaño letras de los productos
 */
-h4{
+.mercado h4{
  display: none;
   font-size:16px;
   }
-main p{
+  .mercado main p{
     font-size:18px;
  }
 
- main p.des{
+ .mercado main p.des{
    font-size:16px;
    color:var(--Verde);
 }
+
+
+
 /**estilos al Pie de página   border:center;
 */
-div.footer{
+.mercado div.footer{
 width: 300px;
 text-align: center;
 padding: 30px 30px;
@@ -84,7 +90,7 @@ margin: auto;
   padding: 10px;
  font-size:1em;
 */
-div.icon{
+.mercado div.icon{
   color: var(--Azul);
   text-align: center;
   padding: 10px;
