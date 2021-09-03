@@ -1,18 +1,17 @@
 
 main{
-
   box-sizing: border-box ;
   background-color: var(--Gris-claro);
 }
 
 .mercado main   {
-    width: 90%;
-    box-sizing: content-box;
-    margin:0  auto;
+  width: 90%;
+  box-sizing: content-box;
+  margin:0  auto;
    
 }
 .mercado main .home section  {
-display: flex;
+  display: flex;
   flex-wrap: wrap;
   /*para tp posicionamiento fexbox
   justify-content: ; coloca las cosas a las vesquinas
@@ -22,25 +21,27 @@ display: flex;
 }
 
 .mercado main  .home section   h2{
- width: 100%;
+  width: 100%;
 
-  }
+}
 
 /*    tarjeta del produc 
 borde superior de 1 píxel*/
 .mercado main .home section article{
   margin: 10px 0;
-   background-color:white;
+  background-color:white;
+  transition: all ease .3s;/*efecto en minutos cuando pasa mouse*/
 }
-
+.mercado main .home section article:hover{ 
+  box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+}
 .mercado  main .home section article  div.contDesArt{
   border-top:solid 1px var(--Gris-claro) ;
   padding: 15px;
   position: relative;/*para posicion absolud de alguna cosa que contiene*/
 }
 
-/*    carro   */
- 
+/*    carro   */ 
 .mercado main section.home section article div.contDesArt div.carro i{
   border-radius: 50%;
   border: solid 1px var(--Verde);
@@ -54,14 +55,15 @@ borde superior de 1 píxel*/
   position: absolute ; /*nece contenedor position: relatip;*/
   right: 20px ;
   top: -15px ;
-
+/*para el hover*/
+  transition: all ease .3s;
 
 }
-
-
-
-
-
+.mercado main section.home section article:hover  div.contDesArt div.carro i {
+  box-shadow: 0 0 5px var(--Verde);
+/**rotar una imagen*/
+  transform: rotate(360deg);/**grados para rotacion*/
+}
 
 
 /*separacion precio y descuento*/
@@ -78,13 +80,23 @@ font-size: 18px;
  
   flex-grow: 0.7;
 }
+.mercado section.home section article div.contDesArt h4{
+  height: 0;
+  transition: all ease .3s;
+  overflow: hidden;/*podemos navegar en una caja*/
 
+  display: none;
+  color: var(--Gris-oscuro);
+  font-size:16px;
+}
 
-
+.mercado section.home section article:hover .contDesArt h4{
+  height: 20px;
+  margin-top: 10px;
+  }
 
 /* 
-  background-position: center;
-{}    -->*/
+{}  -->*/
 
 
 
@@ -101,25 +113,20 @@ media Navegación
     
 @media(min-width:768px ){
                          
-  .mercado  .home h4{
-     display:block;
-   
-    }
-  .mercado .home section article  {
-     box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+  .mercado section.home section article div.contDesArt h4{
+    display:block;
+  }
+  .mercado .home section article  {  
      width: 40%;
   }
 
-
 }
-  
   
  /*  */
  @media(min-width: 1024px){
  
   .mercado .home section article  {
-    box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
     width: 20%;
- }
-      }
+  }
+}
  

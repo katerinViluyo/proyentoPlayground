@@ -11,37 +11,35 @@ para todo tp para que no molesten las cajas mantenga el tamaño*/
 */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 body.mercado{
- font-family: 'Roboto', sans-serif;
- background-color: var(--Gris-claro);
-  }
-  .mercado h5{
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--Gris-claro);
+}
+.mercado h5{
   font-size:12px;
-  }
+}
 
-  .mercado p{
+.mercado p{
   font-size: 12px;
 }
 
 /**sacar el subrayado
 */
 .mercado li{
-list-style: none;
-color: black;
-font-size: 12px;
+  list-style: none;
+  color: black;
+  font-size: 12px;
 } 
 /**sacar lo itens/iconos
 */
 .mercado a{
-text-decoration: none;
-color: black;
+  text-decoration: none;
+  color: black;
   /**cambia color de subrallado: text-decoration-color: black;
 */
-
 }
 
 .mercado main div.banner img{
-  box-sizing: content-box;
-  
+  box-sizing: content-box;  
 }
 /**variables colores del tp {
 }
@@ -58,59 +56,39 @@ color: black;
 /**tamaño letras Titulares
 */
 .mercado h2{
-font-size: 24px;
+  font-size: 24px;
 }
 
 /**tamaño letras de los productos
 */
-.mercado h4{
- display: none;
+.mercado main p{
+  font-size:18px;
+}
+
+.mercado main p.des{
   font-size:16px;
-  }
-  .mercado main p{
-    font-size:18px;
- }
-
- .mercado main p.des{
-   font-size:16px;
-   color:var(--Verde);
-}
-
-
-
-/**estilos al Pie de página   border:center;
-*/
-.mercado div.footer{
-width: 300px;
-text-align: center;
-padding: 30px 30px;
-margin: auto;
-}
-/**distancia de iconos de footer   tamaño icin :font-size text-align: center;
-  padding: 10px;
- font-size:1em;
-*/
-.mercado div.icon{
-  color: var(--Azul);
-  text-align: center;
-  padding: 10px;
- font-size:2em;
+  color:var(--Verde);
 }
 
 input, button{ 
   border: none;
- 
   padding:10px 4px; ;
 }
 /*para que cambie cursor  a manito*/
 button:hover{
-cursor: pointer;
+  cursor: pointer;
 }
  
 .btn-rojo{ 
   background-color: red;
- }
+}
  
-.btn-verde{ 
-  background-color:var(--Verde);
- }
+.btn-celeste{ 
+  background-color:var(--Celeste);
+  transition:  background-color linear .3s ;
+}
+
+.btn-celeste:hover{ 
+  background-color:#0022AA;
+}
+

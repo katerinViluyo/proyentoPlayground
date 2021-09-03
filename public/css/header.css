@@ -1,64 +1,53 @@
 .mercado header {
-    background-color: var(--Amarillo);
-    margin: 0%;
+  background-color: var(--Amarillo);
+  margin: 0%;
 }
 
 .mercado header div.losTres{
-
- width: 100%;
+  width: 100%;
 }
 .mercado header div div.encabezado{
- justify-content: space-between;
-padding: 20px 10px 0px;
- display: flex;
-
+   justify-content: space-between;
+  padding: 20px 10px 0px;
+  display: flex;
 /**/
-align-items: center;
+  align-items: center;
 }
 .mercado header div div.encabezado div.logo {
  width:50% ;
   /* padding: 15px 0px; margin-left:10px ;
   margin-bottom:10px;*/
-
 }
 .mercado header div div.encabezado div.buscadorPrincipal   {
-    width:50% ;
-
-
-  }
-  .mercado header div div.encabezado div.buscadorPrincipal  form.busca {
+  width:50% ;
+}
+.mercado header div div.encabezado div.buscadorPrincipal  form.busca {
  
-   display: flex;
+  display: flex;
   align-items: center;
   width: 100%;
-background-color: burlywood;
-
-
+  background-color: burlywood;
 }
 .mercado header div div.encabezado div.buscadorPrincipal  form input {
-    width: 85% ;
-    border-radius:  5px 0 0 5px;
- 
-  
+  width: 85% ;
+  border-radius:  5px 0 0 5px; 
   }
-  .mercado header div div.encabezado div.buscadorPrincipal  form button {
-    width: 15% ;
+.mercado header div div.encabezado div.buscadorPrincipal  form button {
+  width: 15% ;
   border-radius: 0 5px 5px 0;
-  }
+}
  
 .mercado header div div.encabezado div.buscadorPrincipal div {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
   
 .mercado header div div.encabezado div.buscadorPrincipal  div input.box-form {
-margin: 15px;
+  margin: 15px;
 }
 
 /* mano */
-
 .mercado header div.losTres p.mano{
-  text-align:center;
-  
+  text-align:center;  
   margin: 15px 0px;
 }
 
@@ -67,95 +56,82 @@ margin: 15px;
 .mercado header nav{
   text-anchor: end;
   display: none;
-
 } 
  .mercado header nav.links {
-margin: 0px 0;
+  margin: 0px 0;
 }
 
 .mercado header nav.links ul li a {
-font-size: 12px;
-  
-   }
+  font-size: 12px;
+}
  /*  
 */
 .mercado header div.burger-menu{
-    justify-content: center;
-   text-align:center;
-   }
+  justify-content: center;
+  text-align:center;
+}
  
-   .mercado header div.burger-menu i{
-    color: var(--Gris-claro);
-    background-color: var(--Azul);
+.mercado header div.burger-menu i{
+  color: var(--Gris-claro);
+  background-color: var(--Azul);
     
-    padding: 8px;
-    border-radius: 4px;
-margin: 8px;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 8px;
 }/**/
 
-
-  
  /*tablet en adelante*/
    
 @media(min-width: 768px){
   .mercado header div.losTres {
-   display: flex;
-   width: 100%;
-   justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
     padding: 20px 10px;
   }
 
   .mercado header div.losTres div.encabezado{
     padding: 0;
-      width: 65%;
-   }
+    width: 65%;
+  }
    
   .mercado header div.losTres div.encabezado div.buscadorPrincipal{
-     margin-left: 16px;
-   }
-       .mercado header div.losTres p.mano{
-        margin: auto 0px;
-        
-        padding:5px 0;
-      }
+    margin-left: 16px;
+  }
+  
+  .mercado header div.losTres p.mano{
+    margin: auto 0px;       
+    padding:5px 0;
+  }
 
  
 /*   links  navegacion */
 
-.mercado header nav{
- display: block;
-   
- display: flex;
-     justify-content: space-between;
- 
-
+  .mercado header nav{
+    display: block;  
+    display: flex;
+    justify-content: space-between;
   }
    
   .mercado header nav.links ul  {
-
     display: flex;
-   
   }
   
   .mercado header nav.links ul li {
- margin: 0 8px;
-
+    margin: 0 8px;
   }
 
- 
   .mercado header div.burger-menu i{
     display: none;
-    }
-
-
-
   }
+
+}
     
  /* pc escritorio*/
   @media(max-width: 1024px){
     .mercado header nav.links ul li {
       margin: 0 11px;
      padding: 14px 0;
-       }
+    }
   }
  

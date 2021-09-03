@@ -1,6 +1,6 @@
 /*contenedor general*/
 .register-login .contenedor{ 
-  background-color: tomato;
+ 
    /* width: 90%;*/
     margin: 0 auto;
     max-width: 375px;
@@ -44,8 +44,6 @@ margin: 20px 0;
 .register-login .contenedor .container-buttons button{ 
    color: white;
  }
-{ }
-{ }
 
     
  

@@ -1,0 +1,49 @@
+/**estilos al Pie de página   border:center;
+*/
+footer{
+    background-color: white;
+    color: var(--Gris-oscuro);
+    margin: 10px;
+    padding-top:40px ;
+}
+
+
+.mercado  footer div.footer section{
+    text-align: center;
+    padding: 0 50px;
+    margin: auto;
+}
+    /**distancia de iconos de footer   tamaño icin :font-size text-align: center;
+      padding: 10px;
+     font-size:1em;
+    */
+.mercado footer .footer section div.icon{
+    padding: 10px 0;
+    color: var(--Celeste);
+    text-align: center;
+    margin-bottom: 10px;
+    font-size:2em;
+    transition: color ease .4s;
+}
+
+.mercado footer .footer section div.icon:hover{
+    color: var(--Azul);
+}
+.mercado footer  p{
+    margin-top: 15px;
+}
+
+    @media(min-width: 1024px){
+        .mercado  footer div.footer{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+         }
+
+        .mercado  footer div.footer section{    
+          width: 300px;
+         }
+      
+
+     }
+   
