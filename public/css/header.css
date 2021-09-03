@@ -3,35 +3,49 @@
     margin: 0%;
 }
 
-/*.mercado header div.losTres{
+.mercado header div.losTres{
 
- 
-}*/
+ width: 100%;
+}
 .mercado header div div.encabezado{
  justify-content: space-between;
 padding: 20px 10px 0px;
  display: flex;
 
-/*flex-wrap: wrap;*/
+/**/
 align-items: center;
 }
 .mercado header div div.encabezado div.logo {
- width:48% ;
-  /* padding: 15px 0px;*/
- margin-left:10px ;
-  margin-bottom:10px;
+ width:50% ;
+  /* padding: 15px 0px; margin-left:10px ;
+  margin-bottom:10px;*/
+
 }
 .mercado header div div.encabezado div.buscadorPrincipal   {
-    width:48% ;
+    width:50% ;
 
 
   }
+  .mercado header div div.encabezado div.buscadorPrincipal  form.busca {
+ 
+   display: flex;
+  align-items: center;
+  width: 100%;
+background-color: burlywood;
 
-.mercado header div div.encabezado div.buscadorPrincipal  input {
-    width:80% ;
+
+}
+.mercado header div div.encabezado div.buscadorPrincipal  form input {
+    width: 85% ;
+    border-radius:  5px 0 0 5px;
+ 
+  
   }
-
-
+  .mercado header div div.encabezado div.buscadorPrincipal  form button {
+    width: 15% ;
+  border-radius: 0 5px 5px 0;
+  }
+ 
 .mercado header div div.encabezado div.buscadorPrincipal div {
 box-sizing: border-box;
 }
@@ -84,7 +98,28 @@ margin: 8px;
  /*tablet en adelante*/
    
 @media(min-width: 768px){
-  
+  .mercado header div.losTres {
+   display: flex;
+   width: 100%;
+   justify-content: space-evenly;
+    padding: 20px 10px;
+  }
+
+  .mercado header div.losTres div.encabezado{
+    padding: 0;
+      width: 65%;
+   }
+   
+  .mercado header div.losTres div.encabezado div.buscadorPrincipal{
+     margin-left: 16px;
+   }
+       .mercado header div.losTres p.mano{
+        margin: auto 0px;
+        
+        padding:5px 0;
+      }
+
+ 
 /*   links  navegacion */
 
 .mercado header nav{
@@ -107,22 +142,7 @@ margin: 8px;
 
   }
 
-  .mercado header div.losTres {
-   display: flex;
-   width: 100%;
-    }
-
-    .mercado header div.losTres div.encabezado{
-     width: 65%;
-       }
-   
-       .mercado header div.losTres p.mano{
-        margin: auto 0px;
-        
-        padding:5px 0;
-      }
-
-
+ 
   .mercado header div.burger-menu i{
     display: none;
     }

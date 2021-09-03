@@ -97,4 +97,20 @@ margin: auto;
  font-size:2em;
 }
 
-
+input, button{ 
+  border: none;
+ 
+  padding:10px 4px; ;
+}
+/*para que cambie cursor  a manito*/
+button:hover{
+cursor: pointer;
+}
+ 
+.btn-rojo{ 
+  background-color: red;
+ }
+ 
+.btn-verde{ 
+  background-color:var(--Verde);
+ }

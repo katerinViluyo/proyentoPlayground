@@ -1,0 +1,51 @@
+/*contenedor general*/
+.register-login .contenedor{ 
+  background-color: tomato;
+   /* width: 90%;*/
+    margin: 0 auto;
+    max-width: 375px;
+}
+ 
+.register-login .contenedor h1{ 
+   text-align: center;
+margin: 20px 0;
+}
+
+
+/*contenedor impur*/
+.register-login .contenedor .container-input { 
+   display: flex;
+  margin: 20px 0;
+
+}
+
+.register-login .contenedor .container-input input.text{ 
+   width: 100%;
+ }
+
+.register-login .contenedor .container-input .radio{ 
+  
+   margin: 0 20px;
+ 
+ }
+
+ .register-login .contenedor .container-input .check{ 
+   
+   margin:  0 15px;
+ 
+ }
+
+.register-login .contenedor .container-buttons{ 
+   display: flex;
+   justify-content: space-around;
+   margin: 30px 0;
+}
+
+.register-login .contenedor .container-buttons button{ 
+   color: white;
+ }
+{ }
+{ }
+
+    
+ 

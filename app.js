@@ -9,15 +9,19 @@ app.use(express.static('public'));
 
 //paso4
 app.get('/',(req,res) => res.sendFile(path.join(__dirname, 'view','home.html')));
-app.get('/ofertas',(req,res) => res.sendFile(path.join(__dirname, 'view','ofertas.html')));
+
+// tp formularios .ruta 
+app.get('/register',(req,res) => res.sendFile(path.join(__dirname, 'view','register.html')));
+app.get('/login',(req,res) => res.sendFile(path.join(__dirname, 'view','login.html')));
+/*
 app.get('/tiendasOfi',(req,res) => res.sendFile(path.join(__dirname, 'view','tiendasOfi.html')));
 app.get('/vender',(req,res) => res.sendFile(path.join(__dirname, 'view','vender.html')));
 app.get('/ayuda',(req,res) => res.sendFile(path.join(__dirname, 'view','ayuda.html')));
 
-app.get('/creaTuCuenta',(req,res) => res.sendFile(path.join(__dirname, 'view','creaTuCuenta.html')));
+
 app.get('/ingresa',(req,res) => res.sendFile(path.join(__dirname, 'view','ingresa.html')));
 app.get('/misCompras',(req,res) => res.sendFile(path.join(__dirname, 'view','misCompras.html')));
-
+*/
 
 
 
